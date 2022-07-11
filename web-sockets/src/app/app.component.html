@@ -1,0 +1,12 @@
+<div class="center">
+  <input type="number" [(ngModel)]="numbers.first_num" />
+  <input type="number" [(ngModel)]="numbers.second_num" />
+
+  <div class="btn">
+    <button (click)="add()">Add</button>
+    <button (click)="sub()">Subtract</button>
+    <button (click)="mult()">Multiply</button>
+  </div>
+
+  <p class="result" >Result: {{ result }}</p>
+</div>

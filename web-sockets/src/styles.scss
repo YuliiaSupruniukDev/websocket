@@ -1,0 +1,30 @@
+$dark: #544a44;
+$mainColor: #D3BAA8;
+
+body {
+  background-color: $dark;
+}
+
+button,
+input, .card {
+  padding: 10px 20px;
+  margin: 0 10px;
+  border: 1px solid #211923;
+  background-color: $mainColor;
+  border-radius: 20px;
+  cursor: pointer;
+  text-align: center;
+
+  font-size: 17px;
+}
+
+button:active {
+  transform: scale(0.95);
+}
+
+.center {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
